@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scientific Calculator</title>
+   <link rel="stylesheet" href="styles.css">  
+ 
+</head>
+<body>
+  <div class="calculator">
+   <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+
+
+    <div class="display" id="display">0</div>
+    <div class="buttons">
+      <button onclick="press('2nd')">2nd</button><button onclick="press('(')">(</button><button onclick="press(')')">)</button><button onclick="press('10**')">10ˣ</button>
+      <button onclick="clearMemory()">mc</button><button onclick="addMemory()">m+</button><button onclick="subMemory()">m-</button><button onclick="recallMemory()">mr</button>
+      <button onclick="press('1/')">1/x</button><button onclick="press('**2')">x²</button><button onclick="press('**3')">x³</button><button onclick="press('**')">xʸ</button>
+      <button class="btn-func" onclick="clearAll()">AC</button><button class="btn-func" onclick="backspace()">⌫</button><button class="btn-mode-switch" class="btn-func" onclick="window.location.href='index.html'">⌸</button><button class="btn-op" onclick="press('/')">÷</button>
+      <button onclick="factorial()">x!</button><button onclick="press('Math.sqrt(')">√</button><button onclick="press('Math.cbrt(')">ˣ√</button><button onclick="press('Math.log10(')">lg</button>
+      <button onclick="press('7')">7</button><button onclick="press('8')">8</button><button onclick="press('9')">9</button><button class="btn-op" onclick="press('*')">×</button>
+      <button onclick="press('Math.sin(')">sin</button><button onclick="press('Math.cos(')">cos</button><button onclick="press('Math.tan(')">tan</button><button onclick="press('Math.log(')">ln</button>
+      <button onclick="press('4')">4</button><button onclick="press('5')">5</button><button onclick="press('6')">6</button><button class="btn-op" onclick="press('-')">-</button>
+      <button onclick="press('Math.sinh(')">sinh</button><button onclick="press('Math.cosh(')">cosh</button><button onclick="press('Math.tanh(')">tanh</button><button onclick="press('Math.exp(')">eˣ</button>
+      <button onclick="press('1')">1</button><button onclick="press('2')">2</button><button onclick="press('3')">3</button><button class="btn-op" onclick="press('+')">+</button>
+      <button onclick="convertToDegrees()">Deg</button><button onclick="press('Math.PI')">π</button><button onclick="press('Math.E')">EE</button><button onclick="press('Math.random()')">Rand</button>
+      <button onclick="press('%')">%</button><button onclick="press('0')">0</button><button onclick="press('.')">.</button><button class="btn-eq" onclick="calculate()">=</button>
+
+    </div>
+  </div>
+
+  <script src="script1.js"></script>
+</body>
+</html>
