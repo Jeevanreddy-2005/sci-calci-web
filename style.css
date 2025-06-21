@@ -38,10 +38,10 @@ button:hover {
   background: var(--btn-eq);
 }
 
-  body.light {
+body.light {
   --bg: #f0f0f0;
   --text: #000;
-  --btn-bg: #000000;
+  --btn-bg: #ddd;
   --btn-hover: #bbb;
   --btn-eq: #ff9500;
 }
@@ -238,4 +238,72 @@ button {
 }
 button:hover {
   background: var(--btn-hover);
+}
+
+.calculator {
+  background: #111;
+  border-radius: 30px;
+  padding: 40px;
+  width: 95%;
+  max-width: 480px;
+  box-shadow: 0 0 60px rgba(255, 255, 255, 0.05);
+}
+
+.display {
+  background: #000;
+  padding: 25px;
+  font-size: 3rem;
+  text-align: right;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  border: 1px solid #333;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+button {
+  height: 75px;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 35px;
+  color: #fff;
+  background: #222;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #444;
+}
+@media (max-width: 768px) {
+  .calculator {
+    max-width: 95%;
+    padding: 30px;
+  }
+
+  .display {
+    font-size: 2.2rem;
+    padding: 20px;
+  }
+
+  button {
+    height: 60px;
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .display {
+    font-size: 2rem;
+    padding: 18px;
+  }
+
+  button {
+    height: 55px;
+    font-size: 1.3rem;
+  }
 }
