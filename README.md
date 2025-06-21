@@ -1,4 +1,4 @@
-# ⚡ Sci-Calci-Web
+o # ⚡ Sci-Calci-Web
 
 A sleek, responsive, fullscreen **Scientific Calculator** built using **HTML**, **CSS**, and **JavaScript** — featuring:
 
@@ -13,7 +13,7 @@ A sleek, responsive, fullscreen **Scientific Calculator** built using **HTML**, 
 
 ## 🚀 Live Demo
 
-👉 [View Live on Vercel](https://sci-calci-web.vercel.app)
+👉 [View Demo](https://sci-calci-web.vercel.app)
 
 ---
 
