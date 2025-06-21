@@ -20,7 +20,10 @@ A sleek, responsive, fullscreen **Scientific Calculator** built using **HTML**, 
 
 | Light Mode | Dark Mode |
 |------------|-----------|
-| ![Light Mode](assets/light-mode.png) | ![Dark Mode](assets/dark-mode.png) |
+| ![Light Mode](assets/Light_theme.png) | ![Dark Mode](assets/Dark_theme.png) |
+|------------|-----------|
+
+| ![Light Mode](assets/Sci_cal_Light_theme.png) | ![Dark Mode](assets/Sci_cal_Dark_theme.png) |
 
 > 📁 Screenshots are located inside the `assets/` folder in this repository.
 
