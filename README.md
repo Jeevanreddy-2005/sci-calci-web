@@ -41,25 +41,6 @@ Scientific Calculator
 
 ---
 
-## 📂 Folder Structure
-
-sci-calci-web/
-
-├── index.html
-
-├── style.css
-
-├── script.js
-
-├── assets/
-
-│ ├── light-mode.png
-
-│ └── dark-mode.png
-
-├── README.md
-
----
 
 ## 🛠️ Tech Stack
 
