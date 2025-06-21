@@ -2,7 +2,8 @@
 
 A sleek, responsive, fullscreen **Scientific Calculator** built using **HTML**, **CSS**, and **JavaScript** — featuring:
 
-- 🌓 Light/Dark mode toggle  
+- 🧮 Advanced Scientific Calculations on web 
+- 🌓 Light/Dark mode toggle
 - 🖥️ Landscape-optimized, responsive layout  
 - ⛶ Fullscreen support  
 - 🔁 Switch to normal calculator mode  
@@ -20,12 +21,11 @@ A sleek, responsive, fullscreen **Scientific Calculator** built using **HTML**, 
 
 | Light Mode | Dark Mode |
 |------------|-----------|
-| ![Light Mode](assets/Light_theme.png) | ![Dark Mode](assets/Dark_theme.png) |
+Normal Calculator
+| ![Light Mode](assests/Light_theme.png) | ![Dark Mode](assests/Dark_theme.png) |
 |------------|-----------|
-
-| ![Light Mode](assets/Sci_cal_Light_theme.png) | ![Dark Mode](assets/Sci_cal_Dark_theme.png) |
-
-> 📁 Screenshots are located inside the `assets/` folder in this repository.
+Scientific Calculator
+| ![Light Mode](assests/Sci_cal_Light_theme.png) | ![Dark Mode](assests/Sci_cal_Dark_theme.png) |
 
 ---
 
